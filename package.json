@@ -7,8 +7,8 @@
     "start": "serve"
   },
   "author": "Harjyot Bagga",
-  "devDependencies": {
-    "serve": "^11.2.0"
+  "dependencies": {
+    "serve": "^11.3.2"
   },
   "keywords": [
     "pytorch",

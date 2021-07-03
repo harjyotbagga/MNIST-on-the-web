@@ -21,14 +21,14 @@ The Open Neural Network Exchange (ONNX) is an open standard for representing mac
     ```sh
     git clone https://github.com/harjyotbagga/MNIST-on-the-web.git
     ```
-2. Install the necessary dependencies
+2. Build the docker image
     ```sh
     cd MNIST-on-the-web
-    npm install
+    docker build -t harjyotbagga/mnist-web:latest .
     ```
-3. Start the project
+3. Start the project by running the docker image
     ```sh
-    npm start
+    docker run -p 80:80 harjyotbagga/mnist-web
     ```
 
 ## Live demonstration

@@ -1,5 +1,2 @@
 model/
-node_modules/
 utils/
-package-lock.json
-package.json
